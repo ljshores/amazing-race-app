@@ -8,3 +8,4 @@ numpy==1.22.3
 pandas==1.4.3
 gunicorn
 dash-tools
+docopt==0.6.2
