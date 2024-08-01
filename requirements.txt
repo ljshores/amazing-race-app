@@ -11,4 +11,4 @@ dash-tools
 docopt==0.6.2
 setuptools>=58.0.4
 pip>=24.2
-sklearn
+scikit-learn
