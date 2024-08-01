@@ -17,7 +17,7 @@ import pickle
 
 # Load your predictive model
 #model = joblib.load('model_rus_randomForest_Top3.pkl')
-df= pd.read_csv("~/Documents/Data_Science_Projects/Amazing_Race/AmzingRceTeams_Data.csv")
+df= pd.read_csv("src/AmzingRceTeams_Data.csv")
 with open("src/model_rus_randomForest_Top3.pkl", "rb") as f:
     model = pickle.load(f)
 
