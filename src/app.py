@@ -17,7 +17,7 @@ import pickle
 
 # Load your predictive model
 #model = joblib.load('model_rus_randomForest_Top3.pkl')
-df= pd.read_csv("src/AmzingRceTeams_Data.csv")
+df= pd.read_csv("src/assets/AmzingRceTeams_Data.csv")
 with open("src/model_rus_randomForest_Top3.pkl", "rb") as f:
     model = pickle.load(f)
 
@@ -32,7 +32,7 @@ server = app.server
 # Define the app layout
 app.layout = html.Div([
     html.Div([
-        html.Img(src='assets/amazing_race_logo2.png', 
+        html.Img(src='src/assets/amazing_race_logo2.png', 
                  style={'width': '1400px', 'height': '200px'}),
         html.H1('The Amazing Race Prediction App')
     ], style={'textAlign': 'center'}),
